@@ -4,7 +4,9 @@
 ### Demo Link: https://mduduzindlovu-dev.github.io/Spam-Filter/
 
 ## Overview
-The **Spam Message Checker** is a simple JavaScript project designed to identify potential spam messages based on predefined patterns. Users can input a message, and the tool will determine whether the message contains suspicious content, displaying a warning if spam is detected. This project demonstrates the use of regular expressions, DOM manipulation, and event handling in JavaScript.
+The *** Spam Message Checker *** was born out of my personal quest to put an end to the endless parade of spam messages clogging up my inbox. Whether it’s the infamous “Nigerian prince” generously offering me millions (if only I’d send my bank details) or some too-good-to-be-true offer of free money, this tool helps me spot the nonsense before I even think about falling for it.
+
+Using JavaScript, I built this project to detect and flag potential spam based on common patterns. It’s a handy little filter to keep my digital life a bit less chaotic, while also being a fun way to dive into regular expressions, DOM manipulation, and event handling. Because let’s face it—if a prince needs my help, he can at least call me. 😄
 
 ## Features
 - **Spam Detection Logic**: Utilizes regular expressions to detect patterns commonly associated with spam messages.
