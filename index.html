@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spam Filter: Learn Regular Expressions</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="header-content">
+        <h1 class="title">📧 Is this Spam?</h1>
+        <p class="description">
+          Enter a message to analyze if it may be flagged as spam.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="spam-checker">
+        <form id="spam-form">
+          <label class="message-label" for="message-input">Message: </label>
+          <textarea
+            placeholder="Type your message here..."
+            type="text"
+            name="message"
+            id="message-input"
+            rows="8"
+            cols="40"
+            aria-label="Enter your message to check for spam"
+          ></textarea>
+          <button class="btn" id="check-message-btn" type="button">
+            Check Message
+          </button>
+        </form>
+        <div class="result-container">
+          <p id="result"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Built with 💻 by Mduduzi Ndlovu From  FreeCodeCamp
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
